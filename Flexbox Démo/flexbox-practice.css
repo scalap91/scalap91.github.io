@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+}
+
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  background-color: #000000;
+  display: flex;
+  min-height: 100vh;
+}
+
+.outer-square {
+  background-color: #ffffff;
+  padding: 32px;
+  margin: auto;
+  width: 800px;
+  height: 800px;
+  display: flex;
+  justify-content: flex-start; /* Main axis */
+  align-items: flex-start; /* Secondary axis */
+}
+
+.square {
+  border: 1px solid #000;
+  width: 60px;
+  min-height: 60px;
+}
+
+
+
+
+
+/** Square background color */
+.square-1 {
+  background-color: #1A5E25;
+  flex-grow: 2;
+}
+
+.square-2 {
+  background-color: #0FF1C3;
+  flex-grow: 1;
+}
+
+.square-3 {
+  background-color: #B0F;
+}
+
+.square-4 {
+  background-color: #419464;
+}
+
+.square-5 {
+  background-color: #900009;
+}
+
+.square-6 {
+  background-color: #2162A6;
+}
+
+.square-7 {
+  background-color: #11242D;
+}
+
+.square-8 {
+  background-color: #360157;
+}
+
+.square-9 {
+  background-color: #17A11A;
+}

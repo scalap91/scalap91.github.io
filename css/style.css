@@ -1,0 +1,406 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background: linear-gradient(-90deg, rgba(146, 146, 146, .2),  rgba(39, 152, 225, .2)),
+              url(../images/background-lotus.jpg);
+  background-attachment: fixed;
+  font-family: 'SegoeUI', sans-serif;
+  line-height: 1.5;
+}
+
+ul {
+  margin: 0;
+  list-style-position: inside;
+  list-style-type: square;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h4 {
+  margin-bottom: 6px;
+}
+
+
+
+
+
+
+.page-title {
+  color: #fff;
+  font-family: 'Milonga', cursive;
+  margin-bottom: 32px;
+}
+
+.page-title * {
+  margin: 0;
+}
+
+h1 {
+  font-size: 300%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 250%;
+  text-align: center;
+}
+
+.nav {
+  color: #fff;
+  background-color: rgba(45, 47, 51, .8);
+  padding: 24px;
+  display: flex;
+  position: fixed;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 15%;
+  line-height: 2.5;
+}
+
+.nav-list {
+  margin: 0;
+  margin-top: 32px;
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
+}
+
+.nav-link {
+  font-size: 24px;
+  transition: color .3s ease-in;
+}
+
+.nav-link:hover {
+  color: #008fff
+}
+
+.main {
+  flex-basis: 70%;
+  margin-left: 22.5%;
+}
+
+
+.section {
+  margin: 10px;
+  background: rgba(33, 98, 166, 0.7);
+  border: 2px solid (228, 9, 9);
+  padding: 5px;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.section-title {
+  font-family: 'Milonga', cursive;
+  color: #fff;
+  font-size: 24px;
+  margin: 12px 0;
+  text-align: center;
+}
+
+
+.article {
+  background-color: #FEEDE2;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.lycee {
+  padding: 0px;
+}
+
+.cerus {
+  padding: 0px;
+}
+
+.afpa {
+  padding: 0px;
+}
+
+/* button {
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5em;
+  border: 1px solid white;
+  background-color: rgb(228, 9, 9);
+} */
+
+#button2 {
+  color: white;
+  background-color: rgb(27, 2, 138);
+}
+
+.button3 {
+  text-align: start;
+}
+
+/* #competences {
+  text-align: center;
+  margin: 10px;
+  background: rgb(228, 9, 9);
+  border: 2px solid (228, 9, 9);
+  padding: 5px;
+  flex-direction: column;
+} */
+
+/* .img {
+  width: 400px;
+  height: auto;
+} */
+
+.img-logo {
+  width: 120px;
+  display: block;
+  height: auto;
+  object-fit: cover;
+}
+
+.img-rounded {
+  border-radius: 8px;
+}
+
+
+.etudes {
+  /* width: 245px; */
+  height: 250px;
+  text-align: start;
+}
+
+.script {
+  font-size: 100px;
+}
+
+.bold {
+  font-size: 60px;
+}
+
+.bold1 {
+  font-size: 25px;
+}
+
+.bold3 {
+  text-align: start;
+  font-size: 20px;
+}
+
+#bold1 {
+  font-size: 20px;
+  text-align-last: auto;
+}
+
+.view {
+  height: 222px;
+  text-align: start;
+}
+
+strong {
+  font: size 20px;
+}
+
+.v60 {
+  background: #ffd800;
+  width: 60%;
+}
+
+.v90 {
+  background: #eaff00;
+  width: 90%;
+}
+
+.v70 {
+  background: #baff00;
+  width: 70%;
+}
+
+.v75 {
+  background: #78ff00;
+  width: 75%;
+}
+
+.v65 {
+  background: #12ff00;
+  width: 65%;
+}
+
+.v80 {
+  background: #12ff00;
+  width: 80%;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 800px) {
+  .skills-list {
+    display: block;
+  }
+}
+
+.skills-list li {
+  margin-bottom: 6px;
+  list-style-type: none;
+}
+
+.skills-label {
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+.percent {
+  /* on affiche le span sous forme de bloc pour lui affecter des dimensions */
+  height: 0.8em;
+  line-height: 0.8em;
+  margin: 0.5px 1px;
+  padding: 4px;
+  text-align: right;
+  /* color: #fff; */
+  font-weight: bold;
+  font-family: monospace;
+  /* un petit arrondi pour les navigateurs le supportant */
+  border-bottom: 1px solid #aaa;
+  border-right: 1px solid #aaa;
+  cursor: default;
+  color: black;
+}
+
+/* #portfolio {
+  text-align: center;
+  margin: 10px;
+  background: rgb(27, 2, 138);
+  border: 3px solid (228, 9, 9);
+  padding: 5px;
+  flex-direction: column;
+} */
+
+/* .portfolio {
+  text-align: justify;
+  height: 450px;
+
+  padding: 20px;
+}
+*/
+
+.portfolio.article {
+  display: flex;
+  justify-content: space-around;
+}
+
+.portfolio-item {
+  display: flex;
+  align-items: center;
+}
+
+.portfolio-img {
+  width: 120px;
+  height: auto;
+  border-radius: 16px;
+}
+
+.portfolio-label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.realisation {
+  text-align: justify;
+  height: 222px;
+  padding: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.form-style-9 ul li .field-style {
+  transition: all .3s ease-in-out;
+  box-sizing: border-box;
+  border: 1px solid #B0CFE0;
+  box-sizing: border-box;
+  outline: none;
+  padding: 8px;
+  flex-direction: column;
+  margin: 10px;
+  padding: 5px;
+  width: 99%
+}
+
+.mail {
+  text-align: center;
+  height: 175px;
+  background: white;
+  padding: 10px;
+}
+
+@media all and ( max-width: 326px) {
+  header {
+    margin: 0 auto;
+    text-decoration: none;
+  }
+  .script {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width:325px) and (max-width:980px) {
+  .img {
+    width: 210px;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+  .lycée {
+    width: 100%;
+    height: auto;
+  }
+  .cerus {
+    width: 80%;
+    text-align: justify;
+    height: auto;
+    padding: 20px;
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+  .afpa {
+    width: 50%;
+    height: auto;
+  }
+  .form-style-9 ul li .field-style {
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+    width: 85%
+  }
+  .parcours {
+
+    height: auto;
+    padding: 20px;
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+
+  #parcours{
+    text-align: center;
+  }
+  .contact {
+    display: auto;
+  }
+}
+
+
+.circle{
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+}
